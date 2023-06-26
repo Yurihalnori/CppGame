@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "开始调试 (Debug) ",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\Debug\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "console": "externalTerminal",
+            "preLaunchTask": "C/C++:Debug"
+        }
+    ]
+}
